@@ -5,10 +5,10 @@
 <script type="text/javascript"> google.load("jquery", "1.4.2"); </script>
 <script type="text/javascript"> google.load("jqueryui", "1.8.6"); </script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title> The Music Maze</title>
+<title> Treasure Map </title>
 
 <!-- CSS Files -->
-<%= stylesheet_link_tag "ArtistGraph" %>
+<%= stylesheet_link_tag :all %>
 
 <!-- JIT Library File -->
 <script language="javascript" type="text/javascript" src="jit-yc.js"></script>
@@ -22,15 +22,16 @@
 </head>
 
 <body>
+<div id="header">
+	<%= link_to image_tag("TreasureMap.gif"), :action =>"home" %>
+	<h1>Treasure Map!</h1>
+</div>
+
 <div id="container">
 
 <div id="left-container">
 
 
-
-<h4>
-The Music Maze
-</h4>
 
 <div id="search">
     <input type="text" id="artist_name"
@@ -61,21 +62,6 @@ The Music Maze
 </div>
 
 
-
-<div id='footer'>
-    Powered by <a href='http:/developer.echonest.com'>The Echo Nest</a>.
-    &nbsp; &nbsp;
-    Graphing by the <a href='http://thejit.org'>JavaScript InfoVis Toolkit</a>.
-    &nbsp; &nbsp;
-    Media via  <a href='http://7digital.com'>7Digital</a>.
-    &nbsp; &nbsp;
-    More info at <a href='http://musicmachinery.com/2010/12/20/the-music-maze/'>Music Machinery</a>
-    &nbsp; &nbsp;
-    Check out the  <a href='http://static.echonest.com/LabyrinthOfGenre/GenreMaze.html'>Labyrinth of Genre</a>
-    <br>
-    Going to SXSW? Check out my talk: <a href="http://schedule.sxsw.com/events/event_IAP5853">Finding Music With Pictures: Data Visualization for
-    Discovery</a>
-</div>
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
