@@ -1,14 +1,96 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-  <title>EchnoestSprintRails</title>
-  <%= stylesheet_link_tag :all %>
-  <%= javascript_include_tag :defaults %>
-  <%= csrf_meta_tag %>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript"> google.load("jquery", "1.4.2"); </script>
+<script type="text/javascript"> google.load("jqueryui", "1.8.6"); </script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title> The Music Maze</title>
+
+<!-- CSS Files -->
+<%= stylesheet_link_tag "ArtistGraph" %>
+
+<!-- JIT Library File -->
+<script language="javascript" type="text/javascript" src="jit-yc.js"></script>
+
+<!-- Example File -->
+<%= javascript_include_tag "ArtistGraph" %>
+<%= javascript_include_tag "jit-yc" %>
+<%= javascript_include_tag "soundmanager2-nodebug-jsmin" %>
+
+
 </head>
+
 <body>
+<div id="container">
 
-<%= yield %>
+<div id="left-container">
 
+
+
+<h4>
+The Music Maze
+</h4>
+
+<div id="search">
+    <input type="text" id="artist_name"
+    onkeydown="if (event.keyCode == 13) newArtist()"
+    name="artist" value='weezer' autocomplete="off">
+    <input type="button" value="search" onClick="newArtist()">
+</div>
+
+<select id="hotttnesss" style="display:none">
+ <option value=".7">Just hot artists</option>
+ <option value=".6">Include warm Artists</option>
+ <option value=".4">Include cool artists</option>
+ <option selected value=".0">Include all artists</option>
+</select> &nbsp; &nbsp;
+
+<div id="album-art"> </div>
+<div id="song-title"> </div>
+<div id="artist-name"> </div>
+<div id="log"></div>
+</a>
+</div>
+</div>
+
+
+<div id="center-container">
+    <div id="infovis"></div>
+</div>
+</div>
+
+
+
+<div id='footer'>
+    Powered by <a href='http:/developer.echonest.com'>The Echo Nest</a>.
+    &nbsp; &nbsp;
+    Graphing by the <a href='http://thejit.org'>JavaScript InfoVis Toolkit</a>.
+    &nbsp; &nbsp;
+    Media via  <a href='http://7digital.com'>7Digital</a>.
+    &nbsp; &nbsp;
+    More info at <a href='http://musicmachinery.com/2010/12/20/the-music-maze/'>Music Machinery</a>
+    &nbsp; &nbsp;
+    Check out the  <a href='http://static.echonest.com/LabyrinthOfGenre/GenreMaze.html'>Labyrinth of Genre</a>
+    <br>
+    Going to SXSW? Check out my talk: <a href="http://schedule.sxsw.com/events/event_IAP5853">Finding Music With Pictures: Data Visualization for
+    Discovery</a>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3675615-17']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type =
+'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </body>
 </html>
