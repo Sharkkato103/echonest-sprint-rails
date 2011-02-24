@@ -4910,3 +4910,340 @@ ActionController::RoutingError (No route matches "/jit-yc.js"):
   
 
 Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/home" for 127.0.0.1 at Thu Feb 24 09:22:47 -0500 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_header.html.erb (1.1ms)
+Rendered pages/home.html.erb within layouts/application (63.9ms)
+Completed 200 OK in 70ms (Views: 69.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jit-yc.js" for 127.0.0.1 at Thu Feb 24 09:22:48 -0500 2011
+
+ActionController::RoutingError (No route matches "/jit-yc.js"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/home" for 127.0.0.1 at Thu Feb 24 09:29:10 -0500 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_header.html.erb (16.7ms)
+Rendered pages/home.html.erb within layouts/application (571.5ms)
+Completed 200 OK in 640ms (Views: 639.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jit-yc.js" for 127.0.0.1 at Thu Feb 24 09:29:13 -0500 2011
+
+ActionController::RoutingError (No route matches "/jit-yc.js"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (25.4ms)
+
+
+Started GET "/home" for 127.0.0.1 at Thu Feb 24 09:29:59 -0500 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered pages/home.html.erb within layouts/application (27.1ms)
+Completed 200 OK in 49ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jit-yc.js" for 127.0.0.1 at Thu Feb 24 09:29:59 -0500 2011
+
+ActionController::RoutingError (No route matches "/jit-yc.js"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/home" for 127.0.0.1 at Thu Feb 24 09:30:17 -0500 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_header.html.erb (1.8ms)
+Rendered pages/home.html.erb within layouts/application (30.4ms)
+Completed 200 OK in 38ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jit-yc.js" for 127.0.0.1 at Thu Feb 24 09:30:17 -0500 2011
+
+ActionController::RoutingError (No route matches "/jit-yc.js"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/home" for 127.0.0.1 at Thu Feb 24 09:30:26 -0500 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_header.html.erb (7.6ms)
+Rendered pages/home.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 28ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jit-yc.js" for 127.0.0.1 at Thu Feb 24 09:30:26 -0500 2011
+
+ActionController::RoutingError (No route matches "/jit-yc.js"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/home" for 127.0.0.1 at Thu Feb 24 09:30:33 -0500 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_header.html.erb (1.6ms)
+Rendered pages/home.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 52ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jit-yc.js" for 127.0.0.1 at Thu Feb 24 09:30:33 -0500 2011
+
+ActionController::RoutingError (No route matches "/jit-yc.js"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/home" for 127.0.0.1 at Thu Feb 24 09:31:08 -0500 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jit-yc.js" for 127.0.0.1 at Thu Feb 24 09:31:08 -0500 2011
+
+ActionController::RoutingError (No route matches "/jit-yc.js"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/home" for 127.0.0.1 at Thu Feb 24 09:31:17 -0500 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered pages/home.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 24ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jit-yc.js" for 127.0.0.1 at Thu Feb 24 09:31:17 -0500 2011
+
+ActionController::RoutingError (No route matches "/jit-yc.js"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at Thu Feb 24 09:31:28 -0500 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_header.html.erb (1.3ms)
+Rendered pages/home.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jit-yc.js" for 127.0.0.1 at Thu Feb 24 09:31:28 -0500 2011
+
+ActionController::RoutingError (No route matches "/jit-yc.js"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/home" for 127.0.0.1 at Thu Feb 24 09:31:33 -0500 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered pages/home.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 24ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jit-yc.js" for 127.0.0.1 at Thu Feb 24 09:31:33 -0500 2011
+
+ActionController::RoutingError (No route matches "/jit-yc.js"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at Thu Feb 24 09:31:40 -0500 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_header.html.erb (1.4ms)
+Rendered pages/home.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jit-yc.js" for 127.0.0.1 at Thu Feb 24 09:31:40 -0500 2011
+
+ActionController::RoutingError (No route matches "/jit-yc.js"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/home" for 127.0.0.1 at Thu Feb 24 09:31:54 -0500 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_header.html.erb (1.1ms)
+Rendered pages/home.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jit-yc.js" for 127.0.0.1 at Thu Feb 24 09:31:55 -0500 2011
+
+ActionController::RoutingError (No route matches "/jit-yc.js"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/home" for 127.0.0.1 at Thu Feb 24 09:32:11 -0500 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_header.html.erb (1.5ms)
+Rendered pages/home.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jit-yc.js" for 127.0.0.1 at Thu Feb 24 09:32:11 -0500 2011
+
+ActionController::RoutingError (No route matches "/jit-yc.js"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/home" for 127.0.0.1 at Thu Feb 24 09:32:16 -0500 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 24ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jit-yc.js" for 127.0.0.1 at Thu Feb 24 09:32:16 -0500 2011
+
+ActionController::RoutingError (No route matches "/jit-yc.js"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at Thu Feb 24 09:32:23 -0500 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered pages/home.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jit-yc.js" for 127.0.0.1 at Thu Feb 24 09:32:23 -0500 2011
+
+ActionController::RoutingError (No route matches "/jit-yc.js"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at Thu Feb 24 09:32:28 -0500 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered pages/home.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jit-yc.js" for 127.0.0.1 at Thu Feb 24 09:32:28 -0500 2011
+
+ActionController::RoutingError (No route matches "/jit-yc.js"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/home" for 127.0.0.1 at Thu Feb 24 09:32:33 -0500 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_header.html.erb (4.9ms)
+Rendered pages/home.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at Thu Feb 24 09:32:38 -0500 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_header.html.erb (1.3ms)
+Rendered pages/home.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jit-yc.js" for 127.0.0.1 at Thu Feb 24 09:32:38 -0500 2011
+
+ActionController::RoutingError (No route matches "/jit-yc.js"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/home" for 127.0.0.1 at Thu Feb 24 09:32:49 -0500 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_header.html.erb (1.1ms)
+Rendered pages/home.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 21ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jit-yc.js" for 127.0.0.1 at Thu Feb 24 09:32:50 -0500 2011
+
+ActionController::RoutingError (No route matches "/jit-yc.js"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/home" for 127.0.0.1 at Thu Feb 24 09:32:55 -0500 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_header.html.erb (1.6ms)
+Rendered pages/home.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jit-yc.js" for 127.0.0.1 at Thu Feb 24 09:32:56 -0500 2011
+
+ActionController::RoutingError (No route matches "/jit-yc.js"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/home" for 127.0.0.1 at Thu Feb 24 09:33:08 -0500 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered pages/home.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 77ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jit-yc.js" for 127.0.0.1 at Thu Feb 24 09:33:09 -0500 2011
+
+ActionController::RoutingError (No route matches "/jit-yc.js"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/home" for 127.0.0.1 at Thu Feb 24 09:33:34 -0500 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_header.html.erb (1.1ms)
+Rendered pages/home.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 16ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jit-yc.js" for 127.0.0.1 at Thu Feb 24 09:33:34 -0500 2011
+
+ActionController::RoutingError (No route matches "/jit-yc.js"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (7.9ms)
+
+
+Started GET "/home" for 127.0.0.1 at Thu Feb 24 09:33:59 -0500 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_header.html.erb (3.1ms)
+Rendered pages/home.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 103ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jit-yc.js" for 127.0.0.1 at Thu Feb 24 09:33:59 -0500 2011
+
+ActionController::RoutingError (No route matches "/jit-yc.js"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)

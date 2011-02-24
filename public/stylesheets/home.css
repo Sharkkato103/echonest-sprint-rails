@@ -25,10 +25,10 @@ section {
 }
 
 description {
-    position:absolute;
-    right:418px;
-    top:10px;
-    font-size: 550%;
+    position:relative;
+    right:15px;
+    top: -18px;
+    font-size: 700%;
     background-color: #fff;
     
 }
