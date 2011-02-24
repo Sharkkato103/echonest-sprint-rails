@@ -9,6 +9,9 @@
 
 <!-- CSS Files -->
 <%= stylesheet_link_tag :all %>
+<%= stylesheet_link_tag 'blueprint/screen', :media => 'screen' %>
+<%= stylesheet_link_tag 'blueprint/print', :media => 'print' %>
+<%= stylesheet_link_tag 'home' %>
 
 <!-- JIT Library File -->
 <script language="javascript" type="text/javascript" src="jit-yc.js"></script>
@@ -17,48 +20,19 @@
 <%= javascript_include_tag "ArtistGraph" %>
 <%= javascript_include_tag "jit-yc" %>
 <%= javascript_include_tag "soundmanager2-nodebug-jsmin" %>
+<%= javascript_include_tag "processing.min" %>
+<%= javascript_include_tag "init" %>
+
 
 
 </head>
 
 <body>
-<div id="header">
-	<%= link_to image_tag("TreasureMap.gif"), :action =>"home" %>
-	<h1>Treasure Map!</h1>
-</div>
-
-<div id="container">
-
-<div id="left-container">
-
-
-
-<div id="search">
-    <input type="text" id="artist_name"
-    onkeydown="if (event.keyCode == 13) newArtist()"
-    name="artist" value='weezer' autocomplete="off">
-    <input type="button" value="search" onClick="newArtist()">
-</div>
-
-<select id="hotttnesss" style="display:none">
- <option value=".7">Just hot artists</option>
- <option value=".6">Include warm Artists</option>
- <option value=".4">Include cool artists</option>
- <option selected value=".0">Include all artists</option>
-</select> &nbsp; &nbsp;
-
-<div id="album-art"> </div>
-<div id="song-title"> </div>
-<div id="artist-name"> </div>
-<div id="log"></div>
-</a>
-</div>
-</div>
-
-
-<div id="center-container">
-    <div id="infovis"></div>
-</div>
+<div class="container">
+  <%= render 'layouts/header' %>
+  <section class='round'>
+    <%= yield %>
+  </section>
 </div>
 
 

@@ -1,2 +1,68 @@
-<h1>Pages#Home</h1>
-<p>Find me in app/views/pages/Home.html.erb</p>
+<div id="container">
+
+<section class='round'>
+<div id="left-container">
+
+<div id="search">
+    <input type="text" id="artist_name"
+    onkeydown="if (event.keyCode == 13) newArtist()"
+    name="artist" value='weezer' autocomplete="off">
+    <input type="button" value="search" onClick="newArtist()">
+</div>
+  
+
+<select id="hotttnesss" style="display:none">
+ <option value=".7">Just hot artists</option>
+ <option value=".6">Include warm Artists</option>
+ <option value=".4">Include cool artists</option>
+ <option selected value=".0">Include all artists</option>
+</select> &nbsp; &nbsp;
+
+<div id="album-art"> </div>
+<div id="song-title"> </div>
+<div id="artist-name"> </div>
+<div id="log"></div>
+</a>
+
+</div>
+    </section>
+</div>
+
+
+<div id="center-container">
+  <script type="application/processing">
+int num = 60;
+float mx[] = new float[num];
+float my[] = new float[num];
+
+void setup()
+{
+  size(500, 400);
+  smooth();
+  noStroke();
+  fill(255, 153);
+}
+
+void draw()
+{
+  background(51);
+
+  // Reads throught the entire array
+  // and shifts the values to the left
+  for(int i=1; i<num; i++) {
+    mx[i-1] = mx[i];
+    my[i-1] = my[i];
+  }
+  // Add the new values to the end of the array
+  mx[num-1] = mouseX;
+  my[num-1] = mouseY;
+
+  for(int i=0; i<num; i++) {
+    ellipse(mx[i], my[i], i/2, i/2);
+  }
+}
+</script><canvas width="500" height="400"></canvas></p>
+<div style="height:0px;width:0px;overflow:hidden;"></div>
+    <div id="infovis"></div>
+</div>
+</div>

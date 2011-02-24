@@ -26,7 +26,7 @@ margin-top: 15px;
 margin-right: 15px;
 }
 
-#sidebar {
+sidebar {
 float: left;
 width: 240px;
 height: 1000px;
@@ -34,10 +34,22 @@ padding: 10px;
 margin-left: 15px;
 background-color: #C0C0C0;
 }
+
 #left-container{
-margin-left: 15px;
-margin-top: 30px;
+margin-left: 0px;
+margin-top: -25px;
+background-color: #A0CFEC;
+width: 200px;
+height: 400px;
+padding: 5px;
 }
+
+#center-container{
+    float:right;
+margin-right: 0px;
+    margin-top: -430px;
+}
+
 #sidebar a {
 margin: 5px 5px 5px 5px;
 }

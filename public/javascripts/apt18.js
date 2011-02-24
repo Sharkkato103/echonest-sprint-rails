@@ -30,6 +30,7 @@ jQuery(function ($) {
         var events = [];
         var play = false;
         var focusedParticleIndex = null;
+        var theTweets = null;
         components = [];
 
         // universe
@@ -281,6 +282,20 @@ jQuery(function ($) {
 
                     focusedParticleIndex = i;
 
+                    var randomTweet = theTweets[Math.floor(Math.random()*theTweets.length)];
+
+                    var text = randomTweet.text.replace(/http:\/\/(\S+)/, "<a href=\"http://$1\">http://$1</a>");
+                    text = text.replace(/@(\S+)/, "<a href=\"http://twitter.com/$1\">@$1</a>");
+
+                    //var el = jQuery('<li><div class="content bubble_' + counter + '"><p>' + text + '</p></div><div class="user"><img src="' + data.results[i].profile_image_url + '" width="48" height="48" /> <a href="http://twitter.com/' + data.results[i].from_user + '">' + data.results[i].from_user + '</a></div></li>');
+                    //jQuery('#tweets').append(el);
+                    //counter++;
+
+                    $('#tweet').html('<h1>' + text + '</h1><strong><a href="http://twitter.com/' + randomTweet.from_user + '"><img src="' + randomTweet.profile_image_url + '" width="20" height="20" border="0" /> ' + randomTweet.from_user + '</a></strong>');
+                    $('#tweet').show();
+
+                    $('a').css('color', 'rgb(' + Math.floor(pixels[i].r) + ',' + Math.floor(pixels[i].g) + ',' + Math.floor(pixels[i].b) + ')');
+
                     // abort for loop
                     i = numParticles;
                 }
@@ -297,4 +312,51 @@ jQuery(function ($) {
                 }
             }
         }
-})
+
+        // browser detection
+        $('#tweet').css('top', Math.floor(height/2-52) + 'px');
+
+
+        p.init();
+
+        $('#tweet').attr('unselectable', 'on');
+        $('#tweet').css('MozUserSelect', 'none');
+        $('#tweet').css('KhtmlUserSelect', 'none');
+
+        // start the experiment
+        if(typeof HTMLAudioElement == 'object' || typeof HTMLAudioElement == 'function') {
+            // start if enought data is loaded
+            $('#audio').bind('canplay', function() {
+                jQuery.ajax({
+                    url: 'http://search.twitter.com/search.json?rpp=100&q=html5+love',
+                    dataType: 'jsonp',
+                    success: function (data) {
+                        theTweets = data.results;
+
+                        setTimeout(function() {
+                            startedAt = new Date();
+                            $('#audio').get(0).play();
+                            $('#tweet').hide();
+                            play = true;
+                        }, 100);
+                    }
+                });
+            });
+        } else {
+            // start without audio
+            jQuery.ajax({
+                url: 'http://search.twitter.com/search.json?rpp=100&q=html5+love',
+                dataType: 'jsonp',
+                success: function (data) {
+                    theTweets = data.results;
+
+                    setTimeout(function() {
+                        startedAt = new Date();
+                        $('#audio').hide();
+                        $('#tweet').hide();
+                        play = true;
+                    }, 100);
+                }
+            });
+        }
+    })
